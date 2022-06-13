@@ -22,7 +22,7 @@ const LandingPage = () => {
             <LandingH1>Cintia Nyerges</LandingH1>
             <LandingP>Hi, I am a Web Designer and Frontend Developer from Hungary</LandingP>
             <LandingBtnWrapper>
-                <Button to='singup' onMouseEnter={onHover} onMouseLeave={onHover}>My Projects {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                <Button to='singup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark='true'>My Projects {hover ? <ArrowForward /> : <ArrowRight />}</Button>
             </LandingBtnWrapper>
         </LandingContent>
 
