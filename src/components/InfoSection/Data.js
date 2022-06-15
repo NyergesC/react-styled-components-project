@@ -34,7 +34,7 @@ export const homeObjTwo = {
     darkText:true,
 }
 export const homeObjThree = {
-    id: 'signup',
+    id: 'cv',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

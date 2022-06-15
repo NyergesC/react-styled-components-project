@@ -6,7 +6,7 @@ import {SkillContainer, SkillWrapper, Skillspan, SkillRow, Column1, TextWrapper,
 const Skill = ({primary, dark}) => {
     return (
         <>
-         <SkillContainer id='Skill'>
+         <SkillContainer id='skills'>
             <SkillWrapper>
                 <SkillRow>
                     <Column1>
