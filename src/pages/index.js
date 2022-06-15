@@ -5,6 +5,7 @@ import LandingPage from '../components/LandingPage'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjThree } from '../components/InfoSection/Data'
 import Project from '../components/Projects'
+import Skill from '../components/Skills'
 
 const Home  = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -22,6 +23,7 @@ const Home  = () => {
       <InfoSection {...homeObjOne}/>
       <Project />
       <InfoSection {...homeObjThree}/>
+      <Skill />
 
 
     </>
