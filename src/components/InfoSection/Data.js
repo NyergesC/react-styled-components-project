@@ -1,0 +1,51 @@
+import img from '../../images/svg-1.svg'
+
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Introduction',
+    headline: 'About me',
+    description: 'I am a Webdesigner and Fronted Developer living in Budapest. I enjoy working on projects with Javascript, React and Node Js. Currently, I am sharpanening my SASS and Gatsby while working on additional projects.',
+    buttonLabel: 'Get started',
+    imgStart:false,
+    img: {img},
+    alt: 'picture',
+    dark: true,
+    primary:true,
+    darkText:false,
+}
+
+export const homeObjTwo = {
+    id: 'project',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Introduction',
+    headline: 'About me',
+    description: 'I am a Webdesigner and Fronted Developer living in Budapest. I enjoy working on projects with Javascript, React and Node Js. Currently, I am sharpanening my SASS and Gatsby while working on additional projects.',
+    buttonLabel: 'Get started',
+    imgStart:true,
+    img: require('../../images/svg-1.svg'),
+    alt: 'picture',
+    dark: false,
+    primary:false,
+    darkText:true,
+}
+export const homeObjThree = {
+    id: 'signup',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Introduction',
+    headline: 'About me',
+    description: 'I am a Webdesigner and Fronted Developer living in Budapest. I enjoy working on projects with Javascript, React and Node Js. Currently, I am sharpanening my SASS and Gatsby while working on additional projects.',
+    buttonLabel: 'Get started',
+    imgStart:false,
+    img: require('../../images/svg-1.svg'),
+    alt: 'picture',
+    dark: true,
+    primary:true,
+    darkText:false,
+}

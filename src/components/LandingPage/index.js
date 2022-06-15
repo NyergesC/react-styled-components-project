@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4';
-import {Button} from '../ButtonElement';
+import {Button} from '../ButtonElements';
 import { LandingContainer, LandingBg, VideoBg, LandingContent, LandingH1, LandingP, LandingBtnWrapper, ArrowForward, ArrowRight} from './LandingElements'
 
 
@@ -20,9 +20,9 @@ const LandingPage = () => {
         </LandingBg>
         <LandingContent>
             <LandingH1>Cintia Nyerges</LandingH1>
-            <LandingP>Hi, I am a Web Designer and Frontend Developer from Hungary</LandingP>
+            <LandingP>Hi, I am a Web Designer and Frontend Developer with a passion for learning and creating</LandingP>
             <LandingBtnWrapper>
-                <Button to='singup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark='true'>My Projects {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark='true'>My Projects {hover ? <ArrowForward /> : <ArrowRight />}</Button>
             </LandingBtnWrapper>
         </LandingContent>
 
