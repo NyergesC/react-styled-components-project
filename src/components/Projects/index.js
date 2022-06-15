@@ -13,7 +13,7 @@ const Project = () => {
             <ProjectWrapper>
                 <ProjectCard>
                     <ProjectIcon src={Icon1}/>
-                    <GithubButton>Github</GithubButton>
+                    <GithubButton to='https://github.com/NyergesC/swiper-node-project'>Github</GithubButton>
                     <ProjectH2>Image Gallery</ProjectH2>
                     <ProjectH4>Technologies:</ProjectH4>
                     <ProjectP>Vanilla Javascript, Swiper.js, Node.js, Pure CSS</ProjectP>

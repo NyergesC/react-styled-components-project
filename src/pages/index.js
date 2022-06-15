@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import LandingPage from '../components/LandingPage'
 import InfoSection from '../components/InfoSection'
-import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
+import { homeObjOne, homeObjThree } from '../components/InfoSection/Data'
 import Project from '../components/Projects'
 
 const Home  = () => {

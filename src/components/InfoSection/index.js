@@ -24,7 +24,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                 </Column1>
                 <Column2>
                     <ImgWrap>
-                        <Img src={"/static/media/svg-1.344c5a1ec4cfd5b50d3b5f6fab7af2eb.svg"} alt={alt}/>
+                        <Img src={img} alt={alt}/>
                     </ImgWrap>
                 </Column2>
             </InfoRow>

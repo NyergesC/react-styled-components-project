@@ -47,9 +47,9 @@ export const ProjectIcon = styled.img`
 
 
 export const ProjectH1 = styled.h1`
-    font=size: 2.5rem;
+    font-size: 2.5rem;
     color:#000000;
-    margin-bottom: 64px;
+    margin-bottom: 84px;
 
     @media srceen and (max-width:480px){
         font-size: 2rem;
@@ -61,6 +61,7 @@ export const ProjectH1 = styled.h1`
 export const ProjectH2=styled.h2`
     font-size:1rem;
     margin-bottom:10px;
+    margin-top:10px;
 
 
 `
@@ -110,16 +111,17 @@ export const ProjectCard = styled.div`
     justify-content:flex-start;
     align-items:center;
     border-radius: 10px;
-    max-height:340px;
+    max-height:400px;
     height:100%;
-    padding: 30px 50px;
-    margin: 0 20px;
+    padding: 20px 50px;
+    margin: 0 10px;
     box-shadow: 0 2px 3px rgba(0,0,0,0.3);
     transition: all 0.2s ease-in-out;
 
     &:before{
         content:'';
         position:absolute;
+        border-radius:10px;
         top:0;
         left:0;
         display:block;
