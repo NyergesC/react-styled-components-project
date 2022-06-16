@@ -13,21 +13,21 @@ const Project = () => {
             <ProjectWrapper>
                 <ProjectCard>
                     <ProjectIcon src={Icon1}/>
-                    <GithubButton to='https://github.com/NyergesC/swiper-node-project'>Github</GithubButton>
+                    <GithubButton href='https://github.com/NyergesC/swiper-node-project' target="_blank">Github</GithubButton>
                     <ProjectH2>Image Gallery</ProjectH2>
                     <ProjectH4>Technologies:</ProjectH4>
                     <ProjectP>Vanilla Javascript, Swiper.js, Node.js, Pure CSS</ProjectP>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon2}/>
-                    <GithubButton>Github</GithubButton>
+                    <GithubButton href='https://github.com/NyergesC/weather-app-project' target="_blank">Github</GithubButton>
                     <ProjectH2>Weather App</ProjectH2>
                     <ProjectH4>Technologies:</ProjectH4>
                     <ProjectP>Vanilla Javascript, Fetch, Animations</ProjectP>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon3}/>
-                    <GithubButton>Github</GithubButton>
+                    <GithubButton href='https://github.com/NyergesC/react-styled-components-project' target="_blank">Github</GithubButton>
                     <ProjectH2>Portfolio</ProjectH2>
                     <ProjectH4>Technologies:</ProjectH4>
                     <ProjectP>React, Styled Components</ProjectP>

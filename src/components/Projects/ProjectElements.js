@@ -79,7 +79,7 @@ export const ProjectH4 = styled.h4`
 
 
 `
-export const GithubButton = styled.button`
+export const GithubButton = styled.a`
     position:absolute;
     top:50%;
     left:50%;
