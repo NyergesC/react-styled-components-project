@@ -111,7 +111,7 @@ export const LandingT=styled.p`
 export const LandingBtnWrapper=styled.div`
     max-width:460px;
     width:100%;
-    margin-top: 32px;
+    margin-top: 62px;
     display:flex;
 ${'' /*     flex-direction:column; */}
     align-items:center;
@@ -194,11 +194,17 @@ export const Button1 = styled(Link)`
     display:flex;
     justify-contenct:center;
     align-items:center;
+    margin: 0 20px 0 0;
     transition: all 0.2s ease-in-out;
 
     &:hover{
         transition: all 0.2s ease-in-out;
         background:#8282cf;
+    }
+
+    @media screen and (max-width: 768px){
+        font-size:16px;
+
     }
 
 `
