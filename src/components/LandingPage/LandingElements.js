@@ -74,6 +74,22 @@ export const LandingP=styled.p`
     }   
 
 `
+export const LandingH=styled.p`
+    color:#fff;
+    font-size: 20px;
+    text-align:left;
+    max-width:600px;
+    padding-bottom: 20px;
+    
+
+    @media screen and (max-width: 768px){
+        font-size: 18px;
+    }
+    @media screen and (max-width: 480px){
+        font-size: 16px;
+    }   
+
+`
 
 export const LandingT=styled.p`
     margin-top: 24px;

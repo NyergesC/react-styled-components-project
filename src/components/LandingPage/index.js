@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Picture1 from '../../images/portfolio.jpg'
 import Typical from 'react-typical'
 /* import {Button} from '../ButtonElements'; */
-import { LandingContainer, LandingBg, LandingContent, LandingH1, LandingP, LandingBtnWrapper, ArrowForward, ArrowRight, LandingT, RightSide, LeftSide, PictureBg, Button1, Button2} from './LandingElements'
+import { LandingContainer, LandingBg, LandingContent, LandingH1, LandingP, LandingBtnWrapper, ArrowForward, ArrowRight, LandingT, LandingH, RightSide, LeftSide, PictureBg, Button1, Button2} from './LandingElements'
 
 
 const LandingPage = () => {
@@ -22,7 +22,7 @@ const LandingPage = () => {
         <LandingContent>
             <LeftSide>
 {/*                 <LandingP>Hello</LandingP> */}
-                <LandingP>Hello, There!</LandingP> 
+                <LandingH>Hello, There!</LandingH> 
                 <LandingH1>I'm Cintia Nyerges</LandingH1> 
                 <LandingT> <Typical loop={Infinity} steps={["Frontend Web Developer", 1000, "Webdesigner", 1000, "Enthusiastic Dev", 1000, "React Dev", 1000]} wrapper='b'/></LandingT> 
                 <LandingP>with a passion for learning and creating</LandingP> 
