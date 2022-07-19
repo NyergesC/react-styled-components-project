@@ -35,7 +35,7 @@ const LandingPage = () => {
             <RightSide>
                 <PictureBg src="/static/media/svg-1.344c5a1ec4cfd5b50d3b5f6fab7af2eb.svg">                   
                 </PictureBg>
-                <Blob><svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="150%" id="blobSvg">
+                <Blob><svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="150%" id="blobSvg">
                 <g transform="translate(127, 34)">
                 <path  fill="#8a7394"><animate attributeName='d' dur='10000ms' repeatCount='indefinite' 
                 values='M413,309Q391,368,339,413.5Q287,459,226.5,427Q166,395,131,350.5Q96,306,71.5,241Q47,176,110,146.5Q173,117,229.5,82.5Q286,48,338.5,90Q391,132,413,191Q435,250,413,309Z; 

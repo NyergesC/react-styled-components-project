@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
+    position:relative;
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#000')};
+    z-index:-1000;
 
     @media srceen and (max-width: 768px){
         padding: 100px 0;
     }
+
 
 `
 
@@ -42,6 +45,7 @@ export const Column1 = styled.div`
 
 `
 export const Column2 = styled.div`
+    position:relative;
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
@@ -92,13 +96,28 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
+    postition:relative;
     max-width: 555px;
     height: 100%;
+    z-index:99;
 
 `
 
 export const Img = styled.img`
+    postition:relative;
     width:90%;
     margin: 0 0 10px 0;
     padding-right: 0;
+    z-index:1000;
+`
+
+export const Blob = styled.div`
+    position:absolute;
+    top:0;
+    left:0;
+    max-width:700px;
+    width:100%;
+    height:700px;
+    z-index:-1;
+
 `
