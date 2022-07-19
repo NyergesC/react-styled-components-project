@@ -3,6 +3,7 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 export const LandingContainer = styled.div`
+    position:relative;
     background: #0c0c0c;
     display:flex;
     justify-content:center;
@@ -13,6 +14,13 @@ export const LandingContainer = styled.div`
     z-index:1;
 
 
+`
+export const Blob = styled.div`
+    position:absolute;
+    max-width:500px;
+    width:100%;
+    height:500px;
+    background:#fff;
 `
 
 export const LandingBg = styled.div`
