@@ -17,10 +17,11 @@ export const LandingContainer = styled.div`
 `
 export const Blob = styled.div`
     position:absolute;
-    max-width:500px;
+    max-width:600px;
     width:100%;
-    height:500px;
-    background:#fff;
+    height:600px;
+    z-index:-1;
+
 `
 
 export const LandingBg = styled.div`
