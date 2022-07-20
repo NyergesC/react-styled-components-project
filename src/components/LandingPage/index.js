@@ -15,7 +15,7 @@ const LandingPage = () => {
 
   return (
     <>
-     <LandingContainer>
+     <LandingContainer id='home'>
         <LandingBg>
             {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4'/> */}
         </LandingBg>
