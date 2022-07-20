@@ -1,5 +1,3 @@
-
-
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -10,7 +8,7 @@ export const homeObjOne = {
     description: 'I am a Webdesigner and Fronted Developer living in Budapest. I enjoy working on projects with Javascript, React and Node Js. Currently, I am sharpanening my SASS and Gatsby while working on additional projects.',
     buttonLabel: 'Get started',
     imgStart:false,
-    img: "/static/media/svg-1.344c5a1ec4cfd5b50d3b5f6fab7af2eb.svg",
+    img: require('../../images/svg-7.svg'),
     alt: 'picture',
     dark: true,
     primary:true,

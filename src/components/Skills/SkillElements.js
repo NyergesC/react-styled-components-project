@@ -68,7 +68,7 @@ export const SkillH1 = styled.h1`
  export const SkillH2 = styled.h2`
     max-width:440px;
     margin-bottom: 35px;
-    font-size:18px;
+    font-size:22px;
     line-height:24px;
     color: #000;
 
