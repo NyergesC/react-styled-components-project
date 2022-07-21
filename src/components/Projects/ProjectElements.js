@@ -47,9 +47,11 @@ export const ProjectIcon = styled.img`
 
 
 export const ProjectH1 = styled.h1`
-    font-size: 2.5rem;
     color:#000000;
     margin-bottom: 84px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
 
     @media srceen and (max-width:480px){
         font-size: 2rem;

@@ -19,7 +19,7 @@ const Skill = ({primary, dark}) => {
                             <SkillH2>Languages</SkillH2>
                             <Skillspan>Javascript</Skillspan>
                             <BtnWrap>
-                                <Button to="project" smooth={true} duration={500} spy={true} exact='true' offset={-80} primary={true} dark={true}                
+                                <Button to="contact" smooth={true} duration={500} spy={true} exact='true' offset={-80} primary={true} dark={true}                
                                 >My Contact</Button>
                             </BtnWrap>
                         </TextWrapper>
