@@ -6,6 +6,7 @@ import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjThree } from '../components/InfoSection/Data'
 import Project from '../components/Projects'
 import Skill from '../components/Skills'
+import Contact from '../components/Contact/contact'
 
 const Home  = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ const Home  = () => {
       <Project />
       <InfoSection {...homeObjThree}/>
       <Skill />
+      <Contact />
 
 
     </>
