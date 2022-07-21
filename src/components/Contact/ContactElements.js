@@ -94,12 +94,10 @@ export const SendButton = styled.a`
     left:50%;
     transform:translate(-50%,-50%);
     background:transparent;
-    border: 3px solid #A2A2F6;
     color:#A2A2F6;
-    border-radius: 20px;
-    padding: 10px 20px;
+${'' /*     padding: 10px 20px; */}
     text-transform:uppercase;
-    font-size: 0.9rem;
+    font-size: 2.5rem;
     font-weight:bolder;
     cursor:pointer;
     opacity:0;
@@ -108,7 +106,6 @@ export const SendButton = styled.a`
 
     &:hover{
         color:#ffffff;
-        border: 3px solid #ffffff;
         transition: all 0.2s ease-in-out;
         transform:translateY(0px)
     }
@@ -157,8 +154,8 @@ export const ContactCard = styled.div`
         opacity:1;
         transition: all 0.2 ease-in-out;
         color:#ffffff;
-        border: 2px solid #ffffff;
-        z-index:999
+        z-index:999;
+
     }
     &:hover ${ContactIcon}{
         opacity:.6;
