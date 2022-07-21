@@ -54,8 +54,8 @@ export const ProjectH1 = styled.h1`
     font-weight: 600;
 
     @media srceen and (max-width:480px){
-        font-size: 2rem;
-        margin-top: 10px;
+        font-size: 32px;
+        
     }
 
 `
@@ -130,7 +130,7 @@ export const ProjectCard = styled.div`
         display:block;
         width:100%;
         height:100%;
-        background:linear-gradient(to bottom, rgba(162,162,246,0.5), rgba(130,121,200,1));
+        background:linear-gradient(to bottom, rgba(162,162,246,0.5), rgb(108, 99, 255));
         z-index:999;
         transition: 0.5s all;
         opacity:0;
