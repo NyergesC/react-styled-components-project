@@ -94,6 +94,7 @@ export const GithubButton = styled.a`
     font-weight:bolder;
     cursor:pointer;
     opacity:0;
+    text-decoration:none;
     transform:translateY(30px)
 
     &:hover{
