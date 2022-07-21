@@ -60,6 +60,12 @@ export const SkillH1 = styled.h1`
     font-weight: 600;
     color: #000;
 
+    
+    @media screen and (max-width: 768px){
+        margin-top: 14px;
+
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
@@ -91,6 +97,13 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+
+    @media screen and (max-width: 768px){
+        max-width:400px;
+        width:90%;
+        padding: 0 20px;
+
+    }
 
 `
 
