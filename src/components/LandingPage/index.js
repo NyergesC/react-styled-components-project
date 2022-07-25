@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Picture1 from '../../images/portfolio.jpg'
 import Typical from 'react-typical'
 /* import {Button} from '../ButtonElements'; */
 import { LandingContainer, LandingBg, LandingContent, LandingH1, LandingP, LandingBtnWrapper, ArrowForward, ArrowRight, LandingT, LandingH, RightSide, LeftSide, PictureBg, Button1, Button2, Blob} from './LandingElements'

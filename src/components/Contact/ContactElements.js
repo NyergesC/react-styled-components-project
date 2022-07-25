@@ -64,7 +64,7 @@ export const ContactH1 = styled.h1`
 export const ContactH2=styled.h2`
     font-size:1rem;
     margin-bottom:10px;
-    margin-top:10px;
+    margin-top:5px;
 
 
 `
